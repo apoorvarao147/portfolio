@@ -20,7 +20,35 @@
 
 @media screen and (max-width: 1050px) {
   .nav {
-    > div, > a {
+
+    .nav-content {
+      position: fixed;
+      right: 0;
+      top: 100px;
+      background-color: rgb(254,241,242);
+      border: 2px solid rgb(242,100,63);
+      border-radius: 40px;
+      width: 25%;
+      padding: 3rem;
+      margin-right: 20px;
+      margin-top: 20px;
+      > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        
+      }
+    }
+    .display {
+      display: inline;
+    }
+    .hide {
+      display: none;
+    }
+
+    > a {
       display: none;
     }
     > button {
