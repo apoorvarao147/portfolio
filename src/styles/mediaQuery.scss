@@ -1,0 +1,57 @@
+@media screen and (max-width: 1367px) {
+  nav {
+    padding: 0 $p_md;
+  }
+  
+
+  #home {
+    height: 100vh;
+
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .nav {
+    > div, > a {
+      display: none;
+    }
+    > button {
+      display: inline;
+    }
+  }
+  #home {
+    height: auto;
+    flex-direction: column-reverse;
+
+    > section {
+      
+      &:first-of-type {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+      }
+    }
+  }
+
+  #contact {
+    grid-template-columns: 1fr;
+    > section {
+      width: 100%;
+      
+    }
+    > aside {
+      display: none;
+    }
+  }
+}

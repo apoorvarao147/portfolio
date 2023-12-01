@@ -1,0 +1,75 @@
+@import './static.scss';
+#home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+
+  > section {
+    width: 100%;
+
+    &:first-of-type {
+      padding-left: $p;
+
+      > div {
+        padding-top: 6rem;
+        height: 100%;
+
+        > h1 {
+          font: 900 4rem $text1;
+        }
+
+        .typewriterPara {
+          margin: 20px 0;
+          height: 20px;
+          letter-spacing: 0.4rem;
+          font-size: 1.5rem;
+        }
+        > div {
+          display: flex;
+          margin: 5rem 0;
+          width: 100%;
+          gap: 2rem;
+          align-items: center;
+
+          .links {
+            width: 40px;
+            height: 40px;
+            color: $color6;
+
+            &:hover {
+              // background-color: black;
+              color: $color3;
+            }
+          }
+        }
+        
+      }
+    }
+
+    &:last-of-type {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
+
+      &::after {
+        content: "";
+        width: 40vmax;
+        height: 40vmax;
+        background-color: $color3;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+      }
+
+      > img {
+        width: 40vmax;
+        object-fit: contain;
+        height: 40vmax;
+      }
+    }
+
+  }
+
+}
