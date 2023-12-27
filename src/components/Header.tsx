@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
     <nav className="nav">
-      <h2><a href="#home">Apoorva.dev</a></h2>
+      <h2><a href="/#">Apoorva.dev</a></h2>
 
       <div className={`nav-content ${isMenuOpen ? "display" : "hide"}`}>
         <ul>

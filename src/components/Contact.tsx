@@ -30,12 +30,12 @@ function Contact() {
             placeholder="Your email"
             required
           />
-          <input
-            type="text"
+          <textarea
+            rows={4} cols={40}
             value={message}
             onChange={e => setMessage(e.target.value)}
             placeholder="Your message"
-            required
+            required         
           />
           <button type="submit">Send</button>
         </form>

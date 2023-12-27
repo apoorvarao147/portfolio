@@ -4,7 +4,7 @@
   padding: 0px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-top: 1px solid $color5;
+  // border-top: 1px solid $color5;
 
   > section {
     background-color: $color1;
@@ -26,14 +26,20 @@
         margin: 2rem;
       }
 
-      > input, 
+      > input,
+      > textarea,  
       > button {
         padding: 0.8rem;
-        width: 40%;
+        width: 60%;
         outline: none;
         font: 400 0.9rem $text1;
         margin: 1rem;
         border: none;
+      }
+
+      > textarea {
+        height: 150px;
+        resize: vertical
       }
 
       > button {
