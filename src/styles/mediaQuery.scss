@@ -59,15 +59,21 @@
     height: auto;
     flex-direction: column-reverse;
 
-    > section {
-      
-      &:first-of-type {
-        padding: 0 !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 !important;
+
+      >div {
+        width: 62%;
+
+        // padding: 0 !important;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        // text-align: left;
       }
     }
   }

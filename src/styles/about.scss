@@ -1,11 +1,11 @@
-.tech-stack {
+.about {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   background-color: white;
-  padding: 2rem 0;
+  padding: 4rem 0 2rem 0;
 
   >p {
     border-right: 2px solid rgba(45,46,50,.5);
@@ -13,10 +13,10 @@
     font-family: Mulish,sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
-    padding-right: 2rem
+    padding-right: 2rem;
+    margin-right: 4rem;
   }
   .logos {
-    margin-left: 4rem;
     >ul {
       display: flex;
       flex-direction: row;
@@ -39,3 +39,36 @@
 //     transform: translateY(-5px);
 //   }
 // }
+
+.all-about {
+  display: flex;
+  padding: 8rem;
+  background-color: white;
+  gap: 4rem;
+
+>div {
+  > img {
+    border-radius: 50px;
+  }
+  >h2 {
+    font: 100 2.7rem "Open Sans", sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  >h3 {
+    font-family: Poppins,sans-serif;
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: #161616;
+  }
+  >p {
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+
+  }
+}

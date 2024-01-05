@@ -30,7 +30,7 @@ function Home() {
 
   return (
     <div id="home">
-      <section>
+      <section className="intro">
         <div>
           <motion.h1 {...animations.h1}>
             Hi, I am <br /> Apoorva Rao
