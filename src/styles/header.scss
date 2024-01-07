@@ -45,23 +45,23 @@
     
   }
 
-  > a {
+  // > a {
 
-    > button {
-      border: 1px solid $color6_1;
-      padding: 0.5rem 2rem;
-      background-color: $color1;
-      cursor: pointer;
-      color: $color6;
-      letter-spacing: 1px;
-      font-weight: 500;
-      transition: all 0.3s;
-      &:hover {
-        color: $color1;
-        background-color: $color6;
-      }
-    }
-  }
+  //   > button {
+  //     border: 1px solid $color6_1;
+  //     padding: 0.5rem 2rem;
+  //     background-color: $color1;
+  //     cursor: pointer;
+  //     color: $color6;
+  //     letter-spacing: 1px;
+  //     font-weight: 500;
+  //     transition: all 0.3s;
+  //     &:hover {
+  //       color: $color1;
+  //       background-color: $color6;
+  //     }
+  //   }
+  // }
 
   > button {
     display: none;

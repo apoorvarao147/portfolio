@@ -4,8 +4,8 @@
   display: flex;
   justify-content:center;
   align-items: center;
-  background-color: white;
-  padding: 4rem 0 2rem 0;
+  background-color: rgb(249,249,249);
+  padding: 6.5rem 0 1rem 0;
 
   >p {
     border-right: 2px solid rgba(45,46,50,.5);
@@ -42,11 +42,11 @@
 
 .all-about {
   display: flex;
-  padding: 8rem;
-  background-color: white;
-  gap: 4rem;
+  padding: 1.5rem 8rem;
+  background-color: rgb(249,249,249);
 
 >div {
+  width: 50%;
   > img {
     border-radius: 50px;
   }
@@ -54,20 +54,23 @@
     font: 100 2.7rem "Open Sans", sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
+    color: rgb(242,100,63);
+    font-weight: 400;
   }
   >h3 {
     font-family: Poppins,sans-serif;
     font-size: 2rem;
+    font-weight: 500;
     line-height: 1.4;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #161616;
   }
   >p {
-    color: #767676;
+    color: #161616;
     font-family: Mulish,sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    line-height: 1.3;
+    line-height: 1.6;
   }
 
   }

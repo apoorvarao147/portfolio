@@ -13,9 +13,6 @@ function Header() {
       <div className={`nav-content ${isMenuOpen ? "display" : "hide"}`}>
         <ul>
           <li>
-            <a href="#home" onClick={() => setIsMenuOpen(false)} >Home</a>
-          </li>
-          <li>
             <a href="#about" onClick={() => setIsMenuOpen(false)} >About</a>
           </li>
           <li>
@@ -32,10 +29,6 @@ function Header() {
       <button className="side-menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <AiOutlineMenu />
       </button>
-
-      <a href="mailto:apoorvarao147@gmail.com">
-      <button>Email</button>
-      </a>
     </nav>
     </>
   )

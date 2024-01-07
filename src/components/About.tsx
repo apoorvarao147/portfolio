@@ -39,7 +39,7 @@ const About = () => {
               <img src={git} alt="Git" />
             </li>
           </ul>
-        </div>  
+        </div>
       </div>
 
       <div className="all-about">
@@ -49,16 +49,21 @@ const About = () => {
         </div>
         <div className="about-me">
           <h2>About me</h2>
-          <h3>A dedicated Front-End REACT-JS Developer based in Ontario, Canada 📍</h3>
+          <h3>
+            A dedicated Front-End REACT-JS Developer based in Ontario, Canada 📍
+          </h3>
           <p>
-            I am an enthusiastic Front-End React Developer with a strong foundation
-            in creating visually appealing and user-friendly interfaces. My goal is
-            to create smooth and engaging user experiences by turning design
-            concepts into interactive and responsive websites. My expertise lies in
-            crafting dynamic, engaging interfaces through writing clean and
-            optimized code and utilizing cutting-edge development tools and
-            techniques.My continuous learning drives me toconsistently improve and
-            stay up-to-date with the latest trends.
+            I am an enthusiastic Front-End React Developer with a strong
+            foundation in creating visually appealing and user-friendly
+            interfaces. My goal is to create smooth and engaging user
+            experiences by turning design concepts into interactive and
+            responsive websites.
+          </p>
+          <p>
+            My expertise lies in crafting dynamic, engaging interfaces through
+            writing clean and optimized code and utilizing cutting-edge
+            development tools and techniques.My continuous learning drives me
+            to consistently improve and stay up-to-date with the latest trends.
           </p>
         </div>
       </div>
