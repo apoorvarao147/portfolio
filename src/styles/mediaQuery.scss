@@ -2,8 +2,6 @@
   nav {
     padding: 0 $p_md;
   }
-  
-
   #home {
     height: 100vh;
 
@@ -18,9 +16,40 @@
   }
 }
 
+@media screen and (max-width: 1350px) {
+  .about {
+    .logos {
+      >ul {
+        gap: 1rem;
+      }
+    }
+  }
+  .all-about {
+    padding: 1.5rem 4rem;
+    background-color: aquamarine;
+    >div {
+      gap: 2rem;
+      >img {
+        width: 450px;
+      }
+      > p {
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .projects {
+    >div {
+      width: 80%;
+      >img {
+        width: 400px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .nav {
-
     .nav-content {
       position: fixed;
       right: 0;
@@ -59,6 +88,10 @@
     height: auto;
     flex-direction: column-reverse;
 
+    >section:last-of-type {
+      padding-right: 0;
+    }
+
     .intro {
       display: flex;
       justify-content: center;
@@ -67,15 +100,31 @@
 
       >div {
         width: 62%;
-
-        // padding: 0 !important;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // justify-content: center;
-        // text-align: left;
       }
     }
+  }
+
+  .all-about {
+    display: flex;
+    flex-direction: column-reverse;
+    >div {
+      width: 100%;
+      >img {
+        display: none;
+      }
+      >h2 {
+        font-size: 2.4rem;
+      }
+      >h3 {
+        font-size: 1.7rem;
+        line-height: 1.4;
+      }
+      >p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
+    }
+   
   }
 
   #contact {
@@ -86,6 +135,27 @@
     }
     > aside {
       display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    padding: 0 4rem;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 1rem;
+    >p {
+      border: none;
+      padding-right: 0;
+      margin-right: 0;
+    }
+    .logos {
+      >ul li img{
+        width: 50px;
+      }
     }
   }
 }

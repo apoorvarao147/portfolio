@@ -52,7 +52,7 @@ const About = () => {
           <h3>
             A dedicated Front-End REACT-JS Developer based in Ontario, Canada 📍
           </h3>
-          <p>
+          <p style={{marginBottom: "1.5rem"}}>
             I am an enthusiastic Front-End React Developer with a strong
             foundation in creating visually appealing and user-friendly
             interfaces. My goal is to create smooth and engaging user

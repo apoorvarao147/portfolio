@@ -78,6 +78,23 @@ const Projects = () => {
               Live Demo <FaAngleDoubleRight />
             </a>
           </div>
+          <h3>To Do App</h3>
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/apoorvarao147/miscellaneous"
+              rel="noreferrer"
+            >
+              Code <FaGithub />
+            </a>
+            <a
+              target="_blank"
+              href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
+              rel="noreferrer"
+            >
+              Live Demo <FaAngleDoubleRight />
+            </a>
+          </div>
         </div>
       </div>
     </div>
