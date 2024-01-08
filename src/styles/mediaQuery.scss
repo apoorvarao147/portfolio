@@ -87,10 +87,12 @@
     height: auto;
     flex-direction: column-reverse;
 
-    >section:last-of-type {
-      padding-right: 0;
+    >section {
+      &:last-of-type {
+        padding-right: 0 !important;
+      }
     }
-
+   
     .intro {
       display: flex;
       justify-content: center;
@@ -152,9 +154,18 @@
       margin-right: 0;
     }
     .logos {
-      >ul li img{
-        width: 50px;
+      >ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        >li img{
+          width: 60px;
+        }
       }
+
     }
   }
 }
