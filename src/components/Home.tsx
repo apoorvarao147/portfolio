@@ -49,10 +49,11 @@ function Home() {
             <a
               href="https://www.linkedin.com/in/apoorva-rao-8b5032169/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin className="links" />
             </a>
-            <a href="https://github.com/apoorvarao147" target="_blank">
+            <a href="https://github.com/apoorvarao147" target="_blank" rel="noreferrer">
               <FaGithub className="links" />
             </a>
           </div>

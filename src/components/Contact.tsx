@@ -73,7 +73,7 @@ function Contact() {
         </form>
       </section>
       <aside>
-        <img src={vg} />
+        <img src={vg} alt="hello" />
       </aside>
     </div>
   );

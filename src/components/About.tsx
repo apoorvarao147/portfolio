@@ -6,7 +6,6 @@ import react from "../assets/react.png";
 import sass from "../assets/sass.png";
 import git from "../assets/git.png";
 import coding from "../assets/coding.jpg";
-import cartoon from "../assets/cartoon.jpg";
 
 import "../styles/about.scss";
 
@@ -44,8 +43,7 @@ const About = () => {
 
       <div className="all-about">
         <div>
-          <img src={coding} width="500px" />
-          {/* <img src={cartoon} width="100px" /> */}
+          <img src={coding} width="500px" alt="coding" />
         </div>
         <div className="about-me">
           <h2>About me</h2>

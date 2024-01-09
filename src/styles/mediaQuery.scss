@@ -165,7 +165,39 @@
           width: 60px;
         }
       }
-
     }
   }
+  .projects {
+    >div {
+      width: 90%;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      >img {
+        width: 95%;
+      }
+      >div {
+        padding-top: 0;
+        padding-left: 2rem;
+      }
+    }
+    .mini-projects {
+      
+      gap: 3rem;
+      >div {
+        gap: 1.5rem;
+        flex-direction: column;
+
+        >img {
+          width: 90%;
+          align-items: center;
+        }
+        >div {
+          padding-top: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
 }

@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="projects" id="projects">
       <h2>Projects</h2>
       <div>
-        <img src={reactCart} />
+        <img src={reactCart} alt="react-cart" />
         <div>
           <h3>React Cart</h3>
           <div>
@@ -34,7 +34,7 @@ const Projects = () => {
         </div>
       </div>
       <div>
-        <img src={portfolio} />
+        <img src={portfolio} alt="portfolio" />
         <div>
           <h3>Portfolio</h3>
           <div>
@@ -55,47 +55,55 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mini-projects">
         <div>
-          <img src={hangman} width="600px" />
-          <img src={todo} width="600px" />
-        </div>
-        <div>
-          <h3>Hangman Game</h3>
+          <img src={hangman} alt="hangman" />
           <div>
-            <a
-              target="_blank"
-              href="https://github.com/apoorvarao147/miscellaneous"
-              rel="noreferrer"
-            >
-              Code <FaGithub />
-            </a>
-            <a
-              target="_blank"
-              href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
-              rel="noreferrer"
-            >
-              Live Demo <FaAngleDoubleRight />
-            </a>
-          </div>
-          <h3>To Do App</h3>
-          <div>
-            <a
-              target="_blank"
-              href="https://github.com/apoorvarao147/miscellaneous"
-              rel="noreferrer"
-            >
-              Code <FaGithub />
-            </a>
-            <a
-              target="_blank"
-              href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
-              rel="noreferrer"
-            >
-              Live Demo <FaAngleDoubleRight />
-            </a>
+            <h3>Hangman Game</h3>
+            <div>
+              <a
+                  target="_blank"
+                  href="https://github.com/apoorvarao147/miscellaneous"
+                  rel="noreferrer"
+                >
+                  Code <FaGithub />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
+                  rel="noreferrer"
+                >
+                  Live Demo <FaAngleDoubleRight />
+                </a>
+            </div>
+              
           </div>
         </div>
+
+        <div>
+          <img src={todo} alt="todo" />
+          <div>
+            <h3>To Do App</h3>
+            <div>
+              <a
+                  target="_blank"
+                  href="https://github.com/apoorvarao147/miscellaneous"
+                  rel="noreferrer"
+                >
+                  Code <FaGithub />
+                </a>
+                <a
+                target="_blank"
+                href="https://main.d34pqu7igyh8rv.amplifyapp.com/todo"
+                rel="noreferrer"
+                >
+                  Live Demo <FaAngleDoubleRight />
+                </a>
+            </div>
+             
+          </div>
+        </div>
+
       </div>
     </div>
   );
