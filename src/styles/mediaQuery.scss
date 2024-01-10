@@ -78,7 +78,8 @@
       display: none;
     }
     > button {
-      display: inline;
+      display: flex;
+      align-items: center;
     }
   }
   #home {
@@ -89,6 +90,9 @@
       &:first-of-type {
         >div {
           padding-top: 2rem !important;
+          .typewriterPara {
+            height: 90px !important;
+          }
           >div {
             margin: 1rem 0 !important;
           }
@@ -148,7 +152,7 @@
 
 @media screen and (max-width: 800px) {
   .nav {
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 
   .about {
@@ -209,5 +213,15 @@
       }
     }
   }
-
+  #contact {
+    > section {
+      >form {
+        > input,
+        > textarea,  
+        > button {
+          width: 90%;
+        }
+      }
+    }
+  }
 }
