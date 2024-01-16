@@ -78,7 +78,7 @@ const Projects = () => {
               <div>
                 <a
                     target="_blank"
-                    href="https://github.com/apoorvarao147/miscellaneous"
+                    href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/Hangman"
                     rel="noreferrer"
                   >
                     Code <FaGithub />
@@ -108,7 +108,7 @@ const Projects = () => {
               <div>
                 <a
                     target="_blank"
-                    href="https://github.com/apoorvarao147/miscellaneous"
+                    href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/ToDo"
                     rel="noreferrer"
                   >
                     Code <FaGithub />
