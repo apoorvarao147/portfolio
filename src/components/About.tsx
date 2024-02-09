@@ -6,6 +6,7 @@ import react from "../assets/react.png";
 import sass from "../assets/sass.png";
 import git from "../assets/git.png";
 import coding from "../assets/coding.jpg";
+import coding800 from "../assets/coding-800.jpg";
 
 import "../styles/about.scss";
 
@@ -43,7 +44,7 @@ const About = () => {
 
       <div className="all-about">
         <div>
-          <img src={coding} width="500px" alt="coding" />
+          <img src={coding} width="500px" srcSet={`${coding800} 800w`} alt="coding" />
         </div>
         <div className="about-me">
           <h2>About me</h2>
