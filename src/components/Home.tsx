@@ -50,10 +50,16 @@ function Home() {
               href="https://www.linkedin.com/in/apoorva-rao-8b5032169/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Go to LinkedIn"
             >
               <FaLinkedin className="links" />
             </a>
-            <a href="https://github.com/apoorvarao147" target="_blank" rel="noreferrer">
+            <a 
+              href="https://github.com/apoorvarao147" 
+              target="_blank" 
+              rel="noreferrer"
+              aria-label="Go to GitHub"
+            >
               <FaGithub className="links" />
             </a>
           </div>
