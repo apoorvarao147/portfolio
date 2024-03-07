@@ -1,4 +1,9 @@
-import reactCart from "../assets/react-cart-picture.png";
+import moonEstate from "../assets/moon-estate.png";
+import moonEstate1024 from "../assets/moon-estate-picture-1024.png";
+import moonEstate800 from "../assets/moon-estate-picture-800.png";
+import moonEstate400 from "../assets/moon-estate-picture-400.png";
+
+import reactCart from "../assets/react-cart.png";
 import reactCart1024 from "../assets/react-cart-picture-1024.png";
 import reactCart800 from "../assets/react-cart-picture-800.png";
 import reactCart400 from "../assets/react-cart-picture-400.png";
@@ -28,14 +33,53 @@ const Projects = () => {
     <div className="projects" id="projects">
       <h2>Projects</h2>
       <div>
-        <img src={reactCart} alt="react-cart" 
+        <img
+          src={moonEstate}
+          alt="moon-estate"
+          srcSet={`${moonEstate1024} 1024w, ${moonEstate800} 800w, ${moonEstate400} 400w,`}
+        />
+        <div>
+          <h3>Moon Estate</h3>
+          <div>
+            <p>
+              A real estate website that specializes in helping clients buy,
+              sell, and rent properties. It was built using <span>React</span>{" "}
+              and <span>Tailwind CSS</span>. The backend was built using <span>Express</span>
+              and uses <span>MongoDB</span> database. It also uses <span>JWT</span> for
+              authentication and <span>Redux</span> for state-management. Users
+              can sign-up, create their listings and contact landlord if
+              interested in any property.
+            </p>
+            <div>
+              <a
+                target="_blank"
+                href="https://github.com/apoorvarao147/mern-estate"
+                rel="noreferrer"
+              >
+                Code <FaGithub />
+              </a>
+              <a
+                target="_blank"
+                href="https://mern-estate-qb2p.onrender.com/"
+                rel="noreferrer"
+              >
+                Live Demo <FaAngleDoubleRight />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src={reactCart}
+          alt="react-cart"
           srcSet={`${reactCart1024} 1024w, ${reactCart800} 800w, ${reactCart400} 400w,`}
         />
         <div>
           <h3>React Cart</h3>
           <div>
             <p>
-              A cart system which is developed using <span>React Hooks</span>{" "}
+              A cart system which was developed using <span>React Hooks</span>{" "}
               and <span>SCSS</span>, providing seamless and intuitive shopping
               experience. This feature rich system enables users to browse
               products, add items to their cart, place orders and conveniently
@@ -61,7 +105,9 @@ const Projects = () => {
         </div>
       </div>
       <div>
-        <img src={portfolio} alt="portfolio" 
+        <img
+          src={portfolio}
+          alt="portfolio"
           srcSet={`${portfolio1024} 1024w, ${portfolio800} 800w, ${portfolio400} 400w,`}
         />
         <div>
@@ -92,7 +138,9 @@ const Projects = () => {
       </div>
       <div className="mini-projects">
         <div>
-          <img src={hangman} alt="hangman" 
+          <img
+            src={hangman}
+            alt="hangman"
             srcSet={`${hangman1024} 1024w, ${hangman800} 800w, ${hangman400} 400w,`}
           />
           <div>
@@ -123,7 +171,9 @@ const Projects = () => {
         </div>
 
         <div>
-          <img src={todo} alt="todo" 
+          <img
+            src={todo}
+            alt="todo"
             srcSet={`${todo1024} 1024w, ${todo800} 800w, ${todo400} 400w,`}
           />
           <div>

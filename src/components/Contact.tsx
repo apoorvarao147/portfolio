@@ -7,12 +7,12 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setName("")
     setEmail("")
     setMessage("")
-    console.log(name, email, message);
+
     try {
       if (name && email && message) {
         let body = {
@@ -27,13 +27,12 @@ function Contact() {
           },
           body: JSON.stringify(body),
         });
-        console.log("send message is", sendMessage);
+
         if (sendMessage.status === 200) {
           toast.success("Message sent successfully!");
         }
-        console.log(sendMessage);
         sendMessage = await sendMessage.json();
-      }else{
+      } else {
         toast.error("All fields are required")
       }
     } catch (error) {
