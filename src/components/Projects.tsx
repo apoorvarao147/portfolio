@@ -44,11 +44,12 @@ const Projects = () => {
             <p>
               A real estate website that specializes in helping clients buy,
               sell, and rent properties. It was built using <span>React</span>{" "}
-              and <span>Tailwind CSS</span>. The backend was built using <span>Express</span>
-              and uses <span>MongoDB</span> database. It also uses <span>JWT</span> for
-              authentication and <span>Redux</span> for state-management. Users
-              can sign-up, create their listings and contact landlord if
-              interested in any property.
+              and <span>Tailwind CSS</span>. The backend was built using{" "}
+              <span>Express</span>{" "}
+              and uses <span>MongoDB</span> database. It also uses{" "}
+              <span>JWT</span> for authentication and <span>Redux</span> for
+              state-management. Users can sign-up, create their listings and
+              contact landlord if interested in any property.
             </p>
             <div>
               <a
@@ -60,7 +61,7 @@ const Projects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://mern-estate-qb2p.onrender.com/"
+                href="https://mernapi.apoorvarao.com/"
                 rel="noreferrer"
               >
                 Live Demo <FaAngleDoubleRight />
