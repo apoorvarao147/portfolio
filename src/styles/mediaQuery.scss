@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
   .nav {
     .nav-content {
       position: fixed;
@@ -150,18 +150,19 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .nav {
     padding: 0 2rem;
   }
 
   .about {
     flex-direction: column;
-    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     >p {
       border: none;
       padding-right: 0;
-      margin-right: 0;
+      margin: 2rem 0 1.5rem 0;
     }
     .logos {
       >ul {
@@ -170,10 +171,6 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 2rem;
-
-        >li img{
-          width: 60px;
-        }
       }
     }
   }

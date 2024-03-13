@@ -7,6 +7,11 @@ import sass from "../assets/sass.png";
 import git from "../assets/git.png";
 import coding from "../assets/coding.jpg";
 import coding800 from "../assets/coding-800.jpg";
+import express from "../assets/express.png";
+import node from "../assets/node.png"
+import tailwind from "../assets/TailwindCSS.png"
+import mongoDB from "../assets/mongoDB.png"
+import next from "../assets/next.png"
 
 import "../styles/about.scss";
 
@@ -18,25 +23,40 @@ const About = () => {
         <div className="logos">
           <ul>
             <li>
-              <img src={html} alt="HTML" />
+              <img src={html} alt="HTML" height="70" />
             </li>
             <li>
-              <img src={css} alt="CSS" />
+              <img src={css} alt="CSS" height="70" />
             </li>
             <li>
-              <img src={javascript} alt="Javascript" />
+              <img src={javascript} alt="Javascript" height="70" />
             </li>
             <li>
-              <img src={typescript} alt="Typescript" />
+              <img src={typescript} alt="Typescript" height="70" />
             </li>
             <li>
-              <img src={react} alt="React" />
+              <img src={react} alt="React" height="70" />
             </li>
             <li>
-              <img src={sass} alt="SASS" />
+              <img src={sass} alt="SASS" height="70" />
             </li>
             <li>
-              <img src={git} alt="Git" />
+              <img src={git} alt="Git" height="70" />
+            </li>
+            <li>
+              <img src={node} alt="Node" height="70" />
+            </li>
+            <li>
+              <img src={express} alt="Express" height="25" />
+            </li>
+            <li>
+              <img src={tailwind} alt="TailwindCSS" height="25" />
+            </li>
+            <li>
+              <img src={next} alt="Git" height="25" />
+            </li>
+            <li>
+              <img src={mongoDB} alt="MongoDB" height="40" />
             </li>
           </ul>
         </div>
@@ -44,25 +64,28 @@ const About = () => {
 
       <div className="all-about">
         <div>
-          <img src={coding} width="500px" srcSet={`${coding800} 800w`} alt="coding" />
+          <img
+            src={coding}
+            width="500px"
+            srcSet={`${coding800} 800w`}
+            alt="coding"
+          />
         </div>
         <div className="about-me">
           <h2>About me</h2>
-          <h3>
-            A dedicated Front-End REACT-JS Developer based in Ontario, Canada 📍
-          </h3>
-          <p style={{marginBottom: "1.5rem"}}>
-            I am an enthusiastic Front-End React Developer with a strong
-            foundation in creating visually appealing and user-friendly
-            interfaces. My goal is to create smooth and engaging user
-            experiences by turning design concepts into interactive and
-            responsive websites.
+          <h3>A dedicated Full Stack Developer based in Canada 📍</h3>
+          <p style={{ marginBottom: "1.5rem" }}>
+            I am an enthusiastic Full Stack Developer. I specialize in
+            developing interactive user interfaces using React.js, designing and
+            managing MongoDB databases, and building scalable backend services
+            using Node.js and Express.js. From proficiency in various
+            programming languages such as TypeScript, Node.js, and React to
+            possessing a wide array of technical expertise, I can create logical
+            and robust solutions for building interactive software.
           </p>
           <p>
-            My expertise lies in crafting dynamic, engaging interfaces through
-            writing clean and optimized code and utilizing cutting-edge
-            development tools and techniques.My continuous learning drives me
-            to consistently improve and stay up-to-date with the latest trends.
+            I am passionate about leveraging the latest technologies and best
+            practices to create innovative and user-friendly applications.
           </p>
         </div>
       </div>

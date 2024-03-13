@@ -11,21 +11,23 @@
     border-right: 2px solid rgba(45,46,50,.5);
     color: #2d2e32;
     font-family: Mulish,sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 800;
     padding-right: 2rem;
-    margin-right: 4rem;
+    margin: 4rem;
   }
   .logos {
     >ul {
-      width: 90%;
+      width: 80%;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       list-style-type: none;
       gap: 3rem;
+      margin-left: auto;
+      margin-right: auto;
       >li {
         >img {
-          width: 90px;
           transition: all 0.5s;
         }
       }
