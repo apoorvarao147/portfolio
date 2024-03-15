@@ -45,11 +45,10 @@ const Projects = () => {
               A real estate website that specializes in helping clients buy,
               sell, and rent properties. It was built using <span>React</span>{" "}
               and <span>Tailwind CSS</span>. The backend was built using{" "}
-              <span>Express</span>{" "}
-              and uses <span>MongoDB</span> database. It also uses{" "}
-              <span>JWT</span> for authentication and <span>Redux</span> for
-              state-management. Users can sign-up, create their listings and
-              contact landlord if interested in any property.
+              <span>Express</span> and uses <span>MongoDB</span> database. It
+              also uses <span>JWT</span> for authentication and{" "}
+              <span>Redux</span> for state-management. Users can sign-up, create
+              their listings and contact landlord if interested in any property.
             </p>
             <div>
               <a
@@ -138,7 +137,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="mini-projects">
-        <div>
+        {/* <div>
           <img
             src={hangman}
             alt="hangman"
@@ -169,9 +168,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <img
             src={todo}
             alt="todo"
@@ -202,6 +201,47 @@ const Projects = () => {
                   Live Demo <FaAngleDoubleRight />
                 </a>
               </div>
+            </div>
+          </div>
+        </div> */}
+        <h2>Mini Projects</h2>
+        <div className="mini">
+          <div>
+            <h3>Hangman game</h3>
+            <div>
+              <a
+                target="_blank"
+                href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/Hangman"
+                rel="noreferrer"
+              >
+                Code <FaGithub />
+              </a>
+              <a
+                target="_blank"
+                href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
+                rel="noreferrer"
+              >
+                Live Demo <FaAngleDoubleRight />
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3>To do List</h3>
+            <div>
+              <a
+                target="_blank"
+                href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/ToDo"
+                rel="noreferrer"
+              >
+                Code <FaGithub />
+              </a>
+              <a
+                target="_blank"
+                href="https://main.d34pqu7igyh8rv.amplifyapp.com/todo"
+                rel="noreferrer"
+              >
+                Live Demo <FaAngleDoubleRight />
+              </a>
             </div>
           </div>
         </div>

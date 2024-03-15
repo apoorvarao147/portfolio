@@ -90,72 +90,98 @@
   .mini-projects {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem !important;
+    margin-bottom: 2.5rem;
 
-    >div {
+    >h2 {
+      font: 100 2.3rem "Open Sans", sans-serif;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: rgb(242,100,63);
+      font-weight: 400;
+    }
+
+    >div{
       display: flex;
       flex-direction: row;
-      gap: 3rem;
-
-      >img {
-        // width: 600px;
-        width: 65%;
-        border-radius: 20px;
-      }
-
+      gap: 5rem;
       >div {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        padding-top: 1rem;
-
         >h3 {
-          align-items: center;
           color: #2d2e32;
           font-size: 1.5rem;
           text-transform: uppercase;
+          font-weight: 600;
         }
-
-        >div {
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
-
-          >p {
-            color: #161616;
-            font-family: Mulish, sans-serif;
-            font-size: 1.1rem;
-            font-weight: 300;
-            line-height: 1.5;
-            >span {
-              font-weight: 500;
-              color: rgb(242,100,63);
-            }
-          }
-
-          >div {
-            display: flex;
-            gap: 2.3rem;
-
-            >a {
-              color: #2d2e32;
-              background-color: white;
-              padding: 5px 8px;
-              border-radius: 8px;
-              font-size: 1.2rem;
-              font-weight: 400;
-              text-decoration: none;
-              display: flex;
-              align-items: center;
-              gap: 0.5rem;
-    
-              &:hover {
-                color: rgb(242,100,63);
-                cursor: pointer;
-              }
-            }
-          }          
-        }
-      }
+      }      
     }
+
+    // >div {
+    //   display: flex;
+    //   flex-direction: row;
+    //   gap: 3rem;
+
+    //   >img {
+    //     // width: 600px;
+    //     width: 65%;
+    //     border-radius: 20px;
+    //   }
+
+    //   >div {
+    //     display: flex;
+    //     flex-direction: column;
+    //     gap: 1rem;
+    //     padding-top: 1rem;
+
+    //     >h3 {
+    //       align-items: center;
+    //       color: #2d2e32;
+    //       font-size: 1.5rem;
+    //       text-transform: uppercase;
+    //     }
+
+    //     >div {
+    //       display: flex;
+    //       flex-direction: column;
+    //       gap: 1rem;
+
+    //       >p {
+    //         color: #161616;
+    //         font-family: Mulish, sans-serif;
+    //         font-size: 1.1rem;
+    //         font-weight: 300;
+    //         line-height: 1.5;
+    //         >span {
+    //           font-weight: 500;
+    //           color: rgb(242,100,63);
+    //         }
+    //       }
+
+    //       >div {
+    //         display: flex;
+    //         gap: 2.3rem;
+
+    //         >a {
+    //           color: #2d2e32;
+    //           background-color: white;
+    //           padding: 5px 8px;
+    //           border-radius: 8px;
+    //           font-size: 1.2rem;
+    //           font-weight: 400;
+    //           text-decoration: none;
+    //           display: flex;
+    //           align-items: center;
+    //           gap: 0.5rem;
+    
+    //           &:hover {
+    //             color: rgb(242,100,63);
+    //             cursor: pointer;
+    //           }
+    //         }
+    //       }          
+    //     }
+    //   }
+    // }
   }
 }

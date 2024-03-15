@@ -1,4 +1,4 @@
-@import './static.scss';
+@import "./static.scss";
 #home {
   width: 100%;
   height: auto;
@@ -12,7 +12,7 @@
       padding-left: 8rem;
 
       > div {
-        padding-top: 6rem;
+        padding-top: 4rem;
         height: 100%;
 
         > h1 {
@@ -27,7 +27,7 @@
         }
         > div {
           display: flex;
-          margin: 5rem 0;
+          margin: 4rem 0;
           width: 100%;
           gap: 2rem;
           align-items: center;
@@ -38,12 +38,28 @@
             color: $color6;
 
             &:hover {
-              // background-color: black;
               color: $color3;
             }
           }
+
+          .download {
+            > button {
+              width: 120%;
+              padding: 1rem;
+              cursor: pointer;
+              background-color: $color3;
+              color: $color4;
+              font: 600 1rem $text1;
+              text-transform: uppercase;
+              border: none;
+              letter-spacing: 0.15rem;
+
+              &:hover {
+                opacity: 0.9;
+              }
+            }
+          }
         }
-        
       }
     }
 
@@ -71,7 +87,5 @@
         height: 40vmax;
       }
     }
-
   }
-
 }

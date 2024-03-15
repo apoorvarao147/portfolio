@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import me from "../assets/my_image.png";
+// import resume from "../assets/ApoorvaRaoResume.pdf";
 
 function Home() {
   const animations = {
@@ -38,7 +39,11 @@ function Home() {
 
           <Typewriter
             options={{
-              strings: ["Full Stack Developer", "React Developer", "MERN Stack Developer"],
+              strings: [
+                "Full Stack Developer",
+                "React Developer",
+                "MERN Stack Developer",
+              ],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -54,13 +59,18 @@ function Home() {
             >
               <FaLinkedin className="links" />
             </a>
-            <a 
-              href="https://github.com/apoorvarao147" 
-              target="_blank" 
+            <a
+              href="https://github.com/apoorvarao147"
+              target="_blank"
               rel="noreferrer"
               aria-label="Go to GitHub"
             >
               <FaGithub className="links" />
+            </a>
+          </div>
+          <div>
+            <a className="download" href="Apoorva_Rao_Resume.pdf" download="Apoorva Rao Resume.pdf">
+              <button>Download Resume</button>
             </a>
           </div>
         </div>

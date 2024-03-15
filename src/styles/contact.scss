@@ -4,7 +4,6 @@
   padding: 0px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  // border-top: 1px solid $color5;
 
   > section {
     background-color: $color1;
@@ -23,12 +22,12 @@
         letter-spacing: 5px;
         text-transform: uppercase;
         margin: 2rem;
-        color: rgb(242,100,63);
+        color: rgb(242, 100, 63);
         font-weight: 400;
       }
 
       > input,
-      > textarea,  
+      > textarea,
       > button {
         padding: 0.8rem;
         width: 60%;
@@ -40,7 +39,7 @@
 
       > textarea {
         height: 150px;
-        resize: vertical
+        resize: vertical;
       }
 
       > button {
@@ -52,8 +51,7 @@
         margin: 3rem;
 
         &:hover {
-          background-color: $color3_light;
-          
+          opacity: 0.9;
         }
       }
     }
@@ -74,7 +72,7 @@
       animation: updown 0.7s linear infinite alternate;
       margin-top: 1.5rem;
     }
-  } 
+  }
 }
 
 @keyframes updown {
