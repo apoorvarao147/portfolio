@@ -69,8 +69,12 @@ function Home() {
             </a>
           </div>
           <div>
-            <a className="download" href="AppuResume.pdf" download="ApoorvaResume.pdf">
-              <button>Download Resume</button>
+            <a
+              className="download"
+              href="AppuResume.pdf"
+              download="ApoorvaResume.pdf"
+            >
+              Download Resume
             </a>
           </div>
         </div>
