@@ -71,10 +71,10 @@ function Home() {
           <div>
             <a
               className="download"
-              href="AppuResume.pdf"
+              href="https://drive.google.com/file/d/1EsWkQl0XwWyLp2SZ18u__ZVf5HZjPeAr/view?usp=sharing"
               download="ApoorvaResume.pdf"
             >
-              Download Resume
+              <button>Download Resume</button>
             </a>
           </div>
         </div>
