@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import me from "../assets/my_image.png";
-// import resume from "../assets/ApoorvaRaoResume.pdf";
+// import resume from "../assets/Resume.pdf";
 
 function Home() {
   const animations = {
@@ -69,7 +69,7 @@ function Home() {
             </a>
           </div>
           <div>
-            <a className="download" href="Apoorva_Rao_Resume.pdf" download="Apoorva Rao Resume.pdf">
+            <a className="download" href="AppuResume.pdf" download="ApoorvaResume.pdf">
               <button>Download Resume</button>
             </a>
           </div>
