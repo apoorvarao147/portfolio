@@ -1,74 +1,78 @@
 .about {
   width: 100%;
-  height: auto;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  background-color: rgb(249,249,249);
-  padding: 6.5rem 0 1rem 0;
+  background-color: rgb(249, 249, 249);
+  .about-top {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5rem 0 1rem 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 
-  >p {
-    border-right: 2px solid rgba(45,46,50,.5);
-    color: #2d2e32;
-    font-family: Mulish,sans-serif;
-    font-size: 1.7rem;
-    font-weight: 800;
-    padding-right: 2rem;
-    margin: 4rem;
-  }
-  .logos {
-    >ul {
-      width: 80%;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      list-style-type: none;
-      gap: 3rem;
-      margin-left: auto;
-      margin-right: auto;
-      >li {
-        >img {
-          transition: all 0.5s;
+    > p {
+      border-right: 2px solid rgba(45, 46, 50, 0.5);
+      color: #2d2e32;
+      font-family: Mulish, sans-serif;
+      font-size: 1.7rem;
+      font-weight: 800;
+      padding-right: 2rem;
+      margin: 4rem;
+    }
+    .logos {
+      > ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        gap: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        > li {
+          > img {
+            transition: all 0.5s;
+          }
         }
       }
     }
   }
-}
 
-.all-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem 8rem;
-  background-color: rgb(249,249,249);
+  .all-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 8rem;
+    background-color: rgb(249, 249, 249);
 
->div {
-  width: 45%;
-  > img {
-    border-radius: 50px;
-  }
-  >h2 {
-    font: 100 2.7rem "Open Sans", sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: rgb(242,100,63);
-    font-weight: 400;
-  }
-  >h3 {
-    font-family: Poppins,sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.4;
-    margin-bottom: 1rem;
-    color: #161616;
-  }
-  >p {
-    color: #161616;
-    font-family: Mulish,sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-    line-height: 1.6;
-  }
-
+    > div {
+      width: 45%;
+      > img {
+        border-radius: 50px;
+      }
+      > h2 {
+        font: 100 2.7rem "Open Sans", sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: rgb(242, 100, 63);
+        font-weight: 400;
+      }
+      > h3 {
+        font-family: Poppins, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+        color: #161616;
+      }
+      > p {
+        color: #161616;
+        font-family: Mulish, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.6;
+      }
+    }
   }
 }

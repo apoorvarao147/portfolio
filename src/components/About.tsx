@@ -8,17 +8,17 @@ import git from "../assets/git.png";
 import coding from "../assets/coding.jpg";
 import coding800 from "../assets/coding-800.jpg";
 import express from "../assets/express.png";
-import node from "../assets/node.png"
-import tailwind from "../assets/TailwindCSS.png"
-import mongoDB from "../assets/mongoDB.png"
-import next from "../assets/next.png"
+import node from "../assets/node.png";
+import tailwind from "../assets/TailwindCSS.png";
+import mongoDB from "../assets/mongoDB.png";
+import next from "../assets/next.png";
 
 import "../styles/about.scss";
 
 const About = () => {
   return (
-    <>
-      <div className="about" id="about">
+    <div className="about" id="about">
+      <div className="about-top">
         <p>Tech Stack</p>
         <div className="logos">
           <ul>
@@ -46,17 +46,17 @@ const About = () => {
             <li>
               <img src={node} alt="Node" height="70" />
             </li>
-            <li>
+            <li style={{ display: "flex", alignItems: "center" }}>
+              <img src={mongoDB} alt="MongoDB" height="40" />
+            </li>
+            <li style={{ display: "flex", alignItems: "center" }}>
               <img src={express} alt="Express" height="25" />
             </li>
-            <li>
+            <li style={{ display: "flex", alignItems: "center" }}>
               <img src={tailwind} alt="TailwindCSS" height="25" />
             </li>
-            <li>
+            <li style={{ display: "flex", alignItems: "center" }}>
               <img src={next} alt="Git" height="25" />
-            </li>
-            <li>
-              <img src={mongoDB} alt="MongoDB" height="40" />
             </li>
           </ul>
         </div>
@@ -89,7 +89,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
