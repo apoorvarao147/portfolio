@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import me from "../assets/my_image.png";
-// import resume from "../assets/Resume.pdf";
 
 function Home() {
   const animations = {
@@ -73,6 +72,10 @@ function Home() {
               className="download"
               href="https://drive.google.com/file/d/1EsWkQl0XwWyLp2SZ18u__ZVf5HZjPeAr/view?usp=sharing"
               download="ApoorvaResume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Download resume"
+
             >
               <button>Download Resume</button>
             </a>

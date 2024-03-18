@@ -13,16 +13,6 @@ import portfolio1024 from "../assets/portfolio-picture-1024.png";
 import portfolio800 from "../assets/portfolio-picture-800.png";
 import portfolio400 from "../assets/portfolio-picture-400.png";
 
-import hangman from "../assets/hangman-picture.png";
-import hangman1024 from "../assets/hangman-picture-1024.png";
-import hangman800 from "../assets/hangman-picture-800.png";
-import hangman400 from "../assets/hangman-picture-400.png";
-
-import todo from "../assets/todo-picture.png";
-import todo1024 from "../assets/todo-picture-1024.png";
-import todo800 from "../assets/todo-picture-800.png";
-import todo400 from "../assets/todo-picture-400.png";
-
 import { FaGithub } from "react-icons/fa";
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -137,73 +127,6 @@ const Projects = () => {
         </div>
       </div>
       <div className="mini-projects">
-        {/* <div>
-          <img
-            src={hangman}
-            alt="hangman"
-            srcSet={`${hangman1024} 1024w, ${hangman800} 800w, ${hangman400} 400w,`}
-          />
-          <div>
-            <h3>Hangman Game</h3>
-            <div>
-              <p>
-                Try this word-guessing game which was developed using{" "}
-                <span>Typescript</span> and <span>React</span>.
-              </p>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/Hangman"
-                  rel="noreferrer"
-                >
-                  Code <FaGithub />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://main.d34pqu7igyh8rv.amplifyapp.com/"
-                  rel="noreferrer"
-                >
-                  Live Demo <FaAngleDoubleRight />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div>
-          <img
-            src={todo}
-            alt="todo"
-            srcSet={`${todo1024} 1024w, ${todo800} 800w, ${todo400} 400w,`}
-          />
-          <div>
-            <h3>To Do App</h3>
-            <div>
-              <p>
-                Check out this app that allows users to add and delete tasks,
-                they can also save different lists. The style was given using{" "}
-                <span>styled-components</span> and developed using{" "}
-                <span>React</span>.
-              </p>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/apoorvarao147/miscellaneous/tree/main/src/ToDo"
-                  rel="noreferrer"
-                >
-                  Code <FaGithub />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://main.d34pqu7igyh8rv.amplifyapp.com/todo"
-                  rel="noreferrer"
-                >
-                  Live Demo <FaAngleDoubleRight />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <h2>Mini Projects</h2>
         <div className="mini">
           <div>
