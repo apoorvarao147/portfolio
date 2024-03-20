@@ -50,13 +50,13 @@ const About = () => {
               <img src={mongoDB} alt="MongoDB" height="40" />
             </li>
             <li style={{ display: "flex", alignItems: "center" }}>
-              <img src={express} alt="Express" height="25" />
+              <img src={express} alt="Express" height="23" />
             </li>
             <li style={{ display: "flex", alignItems: "center" }}>
               <img src={tailwind} alt="TailwindCSS" height="25" />
             </li>
             <li style={{ display: "flex", alignItems: "center" }}>
-              <img src={next} alt="Git" height="25" />
+              <img src={next} alt="Next" height="22" />
             </li>
           </ul>
         </div>

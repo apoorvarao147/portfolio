@@ -8,10 +8,7 @@ import reactCart1024 from "../assets/react-cart-picture-1024.png";
 import reactCart800 from "../assets/react-cart-picture-800.png";
 import reactCart400 from "../assets/react-cart-picture-400.png";
 
-import portfolio from "../assets/portfolio-picture.png";
-import portfolio1024 from "../assets/portfolio-picture-1024.png";
-import portfolio800 from "../assets/portfolio-picture-800.png";
-import portfolio400 from "../assets/portfolio-picture-400.png";
+import portfolio from "../assets/portfolio.png";
 
 import { FaGithub } from "react-icons/fa";
 import { FaAngleDoubleRight } from "react-icons/fa";
@@ -98,7 +95,6 @@ const Projects = () => {
         <img
           src={portfolio}
           alt="portfolio"
-          srcSet={`${portfolio1024} 1024w, ${portfolio800} 800w, ${portfolio400} 400w,`}
         />
         <div>
           <h3>Portfolio</h3>
