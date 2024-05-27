@@ -70,7 +70,7 @@ function Home() {
           <div>
             <a
               className="download"
-              href="https://drive.google.com/file/d/1EsWkQl0XwWyLp2SZ18u__ZVf5HZjPeAr/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CdcRiuh-B0casFgqc4VViimdmG45aMM0/view?usp=drive_link"
               download="ApoorvaResume.pdf"
               target="_blank"
               rel="noreferrer"
