@@ -20,7 +20,7 @@ function Contact() {
           email: email,
           message: message,
         };
-        let sendMessage = await fetch("https://api.apoorvarao.com/contact", {
+        let sendMessage = await fetch("https://mernapi.apoorvarao.com/api/contact", {
           method: "POST",
           headers: {
             "Content-type": "application/json",
